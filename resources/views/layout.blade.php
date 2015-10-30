@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Styde\Cars</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -62,6 +62,9 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $('select').select2();
+        $('#search select').change(function () {
+           $('#search').submit();
+        });
     });
 </script>
 </body>
