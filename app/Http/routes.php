@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('bootstrap', function () {
+    return view('bootstrap');
+});
+
+Route::get('dropdowns', function () {
+    return view('components/dropdowns');
+});

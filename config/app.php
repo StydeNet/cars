@@ -138,6 +138,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Vendor Service Providers...
+         */
+        Styde\Html\HtmlServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         Cars\Providers\AppServiceProvider::class,
