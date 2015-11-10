@@ -1,6 +1,6 @@
 <?php
 
-namespace Cars;
+namespace Cars\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -14,5 +14,11 @@ class Car extends Model
     public function getFeaturesAttribute()
     {
         return $this->features()->lists('feature_id')->toArray();
+    }
+
+    public function saveFeatures(array $features)
+    {
+        $features = Feature::whereIn('id', $features)->orWhereIn('name', $features)->get();
+        $this->features()->sync($features);
     }
 }
