@@ -1,6 +1,6 @@
 <?php
 
-use Cars\Car;
+use Cars\Models\Car;
 use Illuminate\Database\Seeder;
 
 class CarTableSeeder extends Seeder
