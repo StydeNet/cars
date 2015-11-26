@@ -64,6 +64,18 @@ return [
             'strict'    => false,
         ],
 
+        'mysql_tests' => [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'cars_tests',
+            'username'  => 'homestead',
+            'password'  => 'secret',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+        ],
+
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
