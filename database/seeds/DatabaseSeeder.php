@@ -1,23 +1,16 @@
 <?php
 
-use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
-
-class DatabaseSeeder extends Seeder
+class DatabaseSeeder extends \Styde\Seeder\BaseSeeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        Model::unguard();
+    protected $truncate = array(
+        'cars',
+        'features',
+        'users'
+    );
 
-        // $this->call(UserTableSeeder::class);
-        $this->call(CarTableSeeder::class);
-        $this->call(FeatureTableSeeder::class);
-
-        Model::reguard();
-    }
+    protected $seeders = array(
+        'User',
+        'Feature',
+        'Car',
+    );
 }
