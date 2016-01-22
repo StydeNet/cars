@@ -1,27 +1,47 @@
-## Laravel PHP Framework
+# Curso de interfaces dinámicas con Laravel y jQuery
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+En este curso avanzado aprenderás a crear interfaces dinámicas combinando diferentes plugins del framework de Javascript jQuery con Laravel 5.1.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Aprenderás a través de las diferentes lecciones cómo implementar diversos componentes de jQuery para crear tags dinámicos, combos dependientes, autocomplete y muchos otros features con AJAX, JSON y Laravel, el framework más popular de PHP.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Este curso es ideal si ya tienes un nivel básico / intermedio de Laravel y has utilizado jQuery antes, pero todavía tienes dificultades trabajando con AJAX, JSON y combinando las tecnologías de frontend y backend.
 
-## Official Documentation
+### Combos dependientes con Laravel AJAX y jQuery    
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+*   [1\. Instalación del proyecto y base de datos](https://styde.net/combos-dinamicos-dependientes-con-laravel-y-jquery-parte-1/)14:46
 
-## Contributing
+*   [2\. Combos básicos con Bootstrap y Eloquent](https://styde.net/combos-dinamicos-dependientes-con-laravel-y-jquery-parte-2/)16:44
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+*   [3\. Combos dependientes usando View Composers y Eloquent](https://styde.net/combos-dinamicos-dependientes-con-laravel-y-jquery-parte-3/)18:21
 
-## Security Vulnerabilities
+*   [4\. Combos dinámicos con jQuery, JSON y AJAX](https://styde.net/combos-dinamicos-dependientes-con-laravel-y-jquery-parte-4/)19:22
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+### Tags dinámicos con Laravel y jQuery    
 
-### License
+*   [5\. Base de datos con migraciones y seeders](https://styde.net/crea-y-agrega-etiquetas-tags-a-un-modulo-con-laravel-y-jquery/)16:39
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+*   [6\. Sincronización de registros (belongs to many)](https://styde.net/crea-y-agrega-etiquetas-tags-a-un-modulo-con-laravel-y-jquery-parte-2/)16:23
+
+*   [7\. Creación de nuevos tags con Laravel y el plugin select2 de jQuery](https://styde.net/crea-y-agrega-etiquetas-tags-a-un-modulo-con-laravel-y-jquery-parte-3/)20:44
+
+*   [8\. Asegurar la calidad de una aplicación y refactorización con PHPUnit](https://styde.net/asegurar-la-calidad-de-una-aplicacion-y-refactorizacion-con-phpunit/)13:47
+
+###   Autocomplete con Laravel y jQuery 
+
+*   [9\. ¿Cómo elegir un plugin o componente para tu proyecto?](https://styde.net/como-elegir-un-plugin-o-componente-para-tu-proyecto/)4:13
+
+*   [10\. Jquery EasyAutocomplete en Laravel 5.1](https://styde.net/jquery-easyautocomplete-en-laravel-5-1/)9:58
+
+*   [11\. Instalación del plugin Easy Autocomplete de jQuery en Laravel 5.1](https://styde.net/instalacion-de-jquery-easyautocomplete-en-laravel-5-1/)16:08
+
+*   [12\. Desarrollo de APIs con JSON y PHPUnit en Laravel](https://styde.net/desarrollo-de-apis-con-json-y-phpunit-en-laravel/)15:57
+
+*   **13\. Autocomplete usando AJAX con Laravel y jQuery**
+
+<div class="c2a-main">
+
+#### Membresía
+
+Adquiere una membresía y accede a todos nuestros cursos
+
+[ Ver planes ](https://styde.net/planes)
