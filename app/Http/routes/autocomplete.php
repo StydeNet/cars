@@ -8,6 +8,12 @@ Route::get('autocomplete/demo', function () {
 
 });
 
+Route::post('autocomplete/demo', function () {
+
+    return Request::all();
+
+});
+
 Route::get('autocomplete/users', function () {
 
     $term = Request::get('term');

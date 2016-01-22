@@ -11,8 +11,14 @@
 |
 */
 
+use Cars\Models\User;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('users/{id}', function ($id) {
+    return User::findOrFail($id);
 });
 
 Route::get('bootstrap', function () {

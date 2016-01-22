@@ -9,6 +9,8 @@
 
     {!! Form::open(['class' => 'form']) !!}
         {!! Field::text('user', ['class' => 'easy-autocomplete']) !!}
+        {!! Field::hidden('user_id', null, ['id' => 'user_id']) !!}
+        {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
     {!! Form::close() !!}
 
 @endsection
@@ -18,28 +20,8 @@
 
     <script>
         $(document).ready(function () {
-            var options = {
-                url: "/resources/people.json",
 
-                getValue: "name",
-
-                template: {
-                    type: "description",
-                    fields: {
-                        description: "email"
-                    }
-                },
-
-                list: {
-                    match: {
-                        enabled: true
-                    }
-                },
-
-                theme: "bootstrap",
-            };
-
-            var optionsAjax = {
+            $("#user").easyAutocomplete({
                 url: "/autocomplete/users",
 
                 getValue: "name",
@@ -54,6 +36,17 @@
                 list: {
                     match: {
                         enabled: true
+                    },
+
+                    onSelectItemEvent: function() {
+                        var user = $("#user").getSelectedItemData();
+
+                        $('#user_id').val(user.id);
+                    },
+
+                    onClickEvent: function () {
+                        var user = $("#user").getSelectedItemData();
+                        window.location.href = '/users/' + user.id;
                     }
                 },
 
@@ -72,9 +65,9 @@
                 },
 
                 requestDelay: 500
-            };
-
-            $("#user").easyAutocomplete(options);
+            }).change(function () {
+                $('#user_id').val('');
+            });
         });
     </script>
 

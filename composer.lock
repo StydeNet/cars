@@ -1096,16 +1096,16 @@
         },
         {
             "name": "styde/seeder",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StydeNet/seeder.git",
-                "reference": "5ddcb352b546229af93113c82ebb79b3c365d927"
+                "reference": "7064170e2d6747de6803a0c9e53de460dbae99da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StydeNet/seeder/zipball/5ddcb352b546229af93113c82ebb79b3c365d927",
-                "reference": "5ddcb352b546229af93113c82ebb79b3c365d927",
+                "url": "https://api.github.com/repos/StydeNet/seeder/zipball/7064170e2d6747de6803a0c9e53de460dbae99da",
+                "reference": "7064170e2d6747de6803a0c9e53de460dbae99da",
                 "shasum": ""
             },
             "require": {
@@ -1139,7 +1139,7 @@
                 "laravel",
                 "seeder"
             ],
-            "time": "2016-01-09 23:46:50"
+            "time": "2016-01-22 13:50:19"
         },
         {
             "name": "swiftmailer/swiftmailer",
